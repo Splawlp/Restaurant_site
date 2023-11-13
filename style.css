@@ -1,13 +1,104 @@
+/* 0.General */
+/* 1. Header */
+/*  */
+
+
+
+/* 0.General */
+
 body{
 	margin: 0;
+
+	font-family: 'Open Sans', sans-serif;
 }
+a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+
+
+/* 1. Header */
+
 .container {
 	margin: 0 166px;
 }
 
 .header {
 	background-image: url("./IMG/main_bg.png");
-	height: 100vh;
 	background-repeat: no-repeat;
 	background-size: cover;
+
+	height: 100vh;
+}
+
+.header-line {
+	display: flex;
+
+	padding-top: 55px;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.nav-bar_item {
+	margin-right: 25px;
+
+	font-weight: 700;
+	font-size: 14px;
+
+	transition: color 0.2s linear;
+}
+
+.nav-bar_item:hover {
+	color: #D67E35;
+}
+
+.nav-cart {
+	position: relative;
+
+	border-right: 1px solid #FFFFFF;
+	padding-right: 20px;
+	height: 50px;
+}
+
+.nav-cart_img {
+	top: 20px;
+	right: 20px;
+	position: absolute;
+}
+
+.phone-number_num {
+	font-weight: 700;
+
+	transition: color 0.2s linear;
+}
+
+.phone-number_num:hover {
+	color: #D67E35;
+}
+
+.phone-number_text {
+	font-weight: 400;
+	color: #FFFFFF;
+	font-size: 14px;
+
+	width: 154px;
+}
+
+.phone-holder {
+	display: flex;
+	align-items: center;
+}
+
+.button {
+	background-color: #FF7400;
+	padding: 14px 19px;
+
+	font-weight: 700;
+
+	transition: background-color 0.2s linear;
+}
+
+.button:hover {
+	background-color: #ffa200;
 }
