@@ -189,13 +189,16 @@ a {
 }
 
 .card_title {
+	font-size: 26px;
+}
+
+.title {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 20px;
 
 	font-family: 'Tinos', serif;
 	font-weight: 400;
-	font-size: 26px;
 	color: #2C2C2C;
 }
 
@@ -213,4 +216,65 @@ a {
 	font-weight: 400;
 	font-size: 26px;
 	color: #656363;
+}
+
+.history_title {
+	font-size: 54px;
+	margin-bottom: 21px;
+}
+
+.history_desc {
+	display: flex;
+	justify-content: center;
+
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #656363;
+}
+
+.history-holder {
+	width: 440px;
+	height: 420px;
+	margin-top: 166px;
+
+	text-align: center;
+}
+
+.history_subtitle__number span {
+	display: inline-block;
+	font-size: 40px;
+	color: #BC9060;
+	padding: 39px 20px 0 22px;
+}
+
+.history_subtitle__num-desc span {
+	display: inline-block;
+	font-size: 20px;
+	padding: 3px 27px;
+}
+
+.history_img-1 {
+	transform: scale(1.2);
+	position: absolute;
+	margin: -330px 560px;
+}
+
+.history_img-2 {
+
+	position: absolute;
+	margin: -400px 495px;
+}
+
+.history_img-3 {
+	transform: scale(.8);
+
+	position: absolute;
+	margin: -360px 325px;
+}
+
+.history_img-4 {
+	transform: scale(.8);
+
+	position: absolute;
+	margin: -220px 585px;
 }
