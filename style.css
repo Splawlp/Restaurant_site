@@ -1,6 +1,6 @@
 /* 0.General */
 /* 1. Header */
-/*  */
+/* 2. Card */
 
 
 
@@ -160,4 +160,57 @@ a {
 	width: 85px;
 	margin-left: 93px;
 	margin-top: 10px;
+}
+
+
+
+/* 2. Card */
+
+.card {
+	width: 349px;
+	height: 295px;
+	background-color: #FFFFFF;
+	box-shadow: 10px 10px 40px 20px #0000001A;
+	margin-right: 31px;
+	margin-top: -90px;
+
+	text-align: center;
+}
+
+.cards-holder {
+	display: flex;
+	justify-content: center;
+}
+
+.card_img {
+	display: flex;
+	justify-content: center;
+	margin-top: 48px;
+}
+
+.card_title {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+
+	font-family: 'Tinos', serif;
+	font-weight: 400;
+	font-size: 26px;
+	color: #2C2C2C;
+}
+
+.card_title span {
+	color: #BC9060;
+	padding-left: 5px;
+}
+
+.card_desc {
+	display: flex;
+	justify-content: center;
+	padding: 0 14px;
+
+	font-family: 'Tinos', serif;
+	font-weight: 400;
+	font-size: 26px;
+	color: #656363;
 }
