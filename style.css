@@ -1,6 +1,9 @@
 /* 0.General */
 /* 1. Header */
 /* 2. Card */
+/* 3. Block-Between */
+/* 4. Dish-Menu */
+/* 5. Food Gallery */
 
 
 
@@ -16,13 +19,15 @@ a {
 	text-decoration: none;
 }
 
+.container {
+	margin: 0 166px;
+}
+
+
 
 
 /* 1. Header */
 
-.container {
-	margin: 0 166px;
-}
 
 .header {
 	background-image: url("./IMG/main_bg.png");
@@ -164,6 +169,7 @@ a {
 
 
 
+
 /* 2. Card */
 
 .card {
@@ -236,6 +242,7 @@ a {
 	width: 440px;
 	height: 420px;
 	margin-top: 166px;
+	margin-bottom: 100px;
 
 	text-align: center;
 }
@@ -277,4 +284,95 @@ a {
 
 	position: absolute;
 	margin: -220px 585px;
+}
+
+
+
+/* 3. Block-Between */
+
+.block-between {
+	background-image: url('./IMG/bg-black_block.png');
+}
+
+.block-between_holder {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.block-between_text {
+	width: 600px;
+	padding: 30px 0;
+}
+
+.block-between_text__title {
+	font-family: 'Tinos', serif;
+	font-weight: 400;
+	color: #D67E35;
+	font-size: 52px;
+	margin-bottom: -10px;
+}
+
+.block-between_text__subtitle {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #FFFFFF;
+	font-size: 24px;
+}
+
+
+
+/* 4. Dish-Menu */
+
+.menu_title {
+	text-align: center;
+	color: #000;
+	font-family: 'Tinos', serif;
+	font-weight: 400;
+	font-size: 54px;
+
+	margin: 132px 0;
+}
+
+.menu_title span{
+	color: #D67E35;
+}
+
+.menu-holder {
+	position: relative;
+	top: -503px;
+	left: 475px;
+}
+
+.price {
+	margin-top: 23px;
+	
+	display: flex;
+	align-items: center;
+
+	font-size: 26px;
+	font-family: 'Tinos', serif;
+	font-weight: 400;
+}
+
+.price_img {
+	margin-right: 30px;
+}
+
+
+
+/* 5. Food Gallery */
+
+.food-gallery_title {
+	font-size: 54px;
+	color: #000;
+	font-family: 'Tinos', serif;
+	font-weight: 400;
+
+	margin-top: -350px;
+	text-align: center;
+}
+
+.food-gallery_title span{
+	color: #D67E35;
 }
