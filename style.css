@@ -5,6 +5,8 @@
 /* 4. Dish-Menu */
 /* 5. Food Gallery */
 
+/* ADAPTATION */
+
 
 
 /* 0.General */
@@ -424,5 +426,104 @@ a {
 	width: 30px;
 
 	background-color: #FF0000;
+}
+
+
+
+
+/* ADAPTATION */
+
+@media (max-width: 1150px) {
+
+.container {
+	margin: 0 80px;
+}
+
+.card_desc {
+	font-size: 18px;
+}
+
+.card {
+	height: 290px;
+	width: 280px;
+}
+
+.card_img {
+	transform: scale(.9);
+}
+
+.history_img-1 {
+	transform: scale(0.9);
+
+	margin: -330px 400px;
+}
+
+.history_img-2 {
+	transform: scale(0.7);
+
+	margin: -400px 355px;
+}
+
+.history_img-3 {
+	transform: scale(.5);
+
+	margin: -360px 225px;
+}
+
+.history_img-4 {
+	transform: scale(.5);
+
+	margin: -220px 455px;
+}
+
+.history-holder {
+	margin-top: 50px;
+}
+
+.block-between_text__title {
+	font-size: 48px;
+}
+
+.block-between_text__sutitle {
+	font-size: 18px;
+}
+
+.menu_title {
+	margin: 60px 0;
+}
+
+.menu_img {
+	transform: scale(.8);
+
+	margin: -60px 0;
+}
+
+.menu-holder {
+	top: -355px;
+}
+
+.price {
+	font-size: 16px;
+}
+
+.price_img {
+	transform: scale(.6);
+	margin: -30px 0;
+}
+
+.food-gallery {
+	margin-top: 95px;
+}
+
+.FG_img {
+	transform: scale(.7);
+	margin: 0 -60px;
+}
+
+.food-gallery_photos-reverse {
+	margin-left: 90px;
+	margin-top: -30px;
+}
+
 }
 
